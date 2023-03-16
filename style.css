@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /* display: block; */
+}
+
+.sidebar{
+  background: #fb3838;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 25px;
+  width: 250px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+
+.sidebar a{
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+}
+
+.amazon{
+  padding: 60px;
+  text-align:justify;
+  color: aliceblue;
+}
+
+.menu ul{
+  margin: 15px;
+  font-size: 20px;
+  text-align:justify;
+  color: aliceblue;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+.menu li a{
+  cursor: pointer;
+  width: 130px;
+  padding: 10px 15px;
+  display: block;
+}
+
+.menu li a:hover{
+  background-color: white;
+  color:#fb3838;
+}
+
+.main {
+  padding-left: 280px;
+}
+
+h1{
+  font-size: 55px;
+  padding-top: 30px;
+  height: 30px;
+}
+
+h2{
+  font-size: 50px;
+  color: #fb3838;
+  height: 30px;
+}
+
+#s-red-cir{
+	width: 60px;
+	height: 1px;
+	border-radius: 5px; 
+	border: 5px solid #fb3838;
+	margin-bottom: 40px;
+  background-color: #fb3838;
+}
+
+#image-box{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.img {
+  width: 49%;
+  /* width: 300px; */
+  height: auto;
+  opacity: 0.8;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.img-size{
+  height: 100%;
+  width: 100%;
+}
+p{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  height: 2;
+  padding-right: 128px;
+}
+#head{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.image-box-2 {
+  width: 80%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.img-sizeI{
+  padding-top: 0px 10px;
+  height: 450px;
+  width: 300px;
+  margin-left: 4px;
+  background-color: #F5F4F4;
+}
+
+.name{
+  font-size: 25px;
+  font-weight: lighter;
+  padding-left: 10px;
+}
+
+.pos{
+  font-size: 16px;
+  padding-left: 10px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.box{
+  border: 1px solid #fb3838;
+}
+
+.s1{
+  width: 100%;
+  height: 50%;
+}
+
+.s2{
+  width: 100%;
+  height: 50%;
+}
+
+.s3{
+  width: 100%;
+  height: 50%;
+}
+
+.info{
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.deal-box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.deal{
+  text-align: justify;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 48%;
+  background-color: #eee;
+}
+
+.rate{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.feature-list {
+  color: black;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feature-list li{
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.price{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.price h2{
+  height: 0;
+  font-size: 28px;
+  font-weight: lighter;
+  color: black;
+}
+
+.sbutton{
+  padding: 5%;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  border-color: #eee;
+  cursor: pointer;
+}
+
+.sbutton-2{
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #fb3838;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  border-color: #eee;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+.sbutton-2:hover{
+  background-color: black;
+}
+
+label{
+  font-weight: bold;
+}
+
+input {
+  width: 30%;
+  height: 40px;
+  outline: none;
+}
+
+.send-message{
+  border: none;
+  font-size: 20px;
+  color: white;
+  height: 45px;
+  background-color: #fb3838;
+  cursor: pointer;
+}
+
+.send-message:hover{
+  background-color: rgb(166, 165, 165);
+}
+
+footer{
+  text-align: center;
+  margin-top: 5%;
+  padding: 5%;
+  height: auto;
+  background-color: rgb(214, 212, 212);
+}
+
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    
+  }
+}
